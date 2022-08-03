@@ -1,0 +1,67 @@
+.inputStyle {
+    display: none;
+    position: relative;
+    
+}
+h1 {
+    text-align: center;
+    color: white;
+    border: solid 1px rgb(122, 105, 216);
+    background-color: rgb(122, 105, 216);
+    border-radius: 3px;
+    padding: 5px 0px;
+}
+.body{
+    margin: 2em;
+    
+}
+
+label{
+    cursor: pointer;
+    border: solid 1px rgb(122, 105, 216);
+    color: white;
+    background-color: rgb(122, 105, 216);
+    padding: 1em;
+    margin: 5px;
+}
+.imageStyle {
+    width: 85%;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#img{
+    flex-basis: 30%;
+    margin: 2em 0;
+    width: 90%;
+    height: auto;
+    margin: 80px 10px;
+}
+.card{
+    border: solid 1px rgb(122, 105, 216);
+}
+.select {
+    position: fixed;
+    margin-top: 19px; 
+}
+
+
+.result {
+    flex-basis: 70%;
+    text-align: center;
+    border: solid 1px rgb(122, 105, 216);
+    background-color: rgb(122, 105, 216);
+    color: white;
+    width: 80%;
+    height: 80vh;
+    overflow: scroll;
+}
+
+.title{
+    margin-left: -10px;
+    font-size: larger;
+    font-style: italic;
+
+}
